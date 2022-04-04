@@ -23,8 +23,8 @@ export default function useFetch(url, method, headers) {
         setError(true);
       }
     }
-    requestFetch();
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+      requestFetch();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return {

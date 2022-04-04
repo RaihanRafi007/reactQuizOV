@@ -42,6 +42,7 @@ export default function Quiz() {
   const { state } = location;
   const { videoTitle } = state;
 
+
   useEffect(() => {
     dispatch({
       type: "questions",
